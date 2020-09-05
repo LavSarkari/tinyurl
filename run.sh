@@ -1,7 +1,11 @@
-pkg install figlet toilet python curl -yecho
+pkg install figlet toilet python curl -y
+echo " "
 pkg install termux-api
+echo " "
 pip install pyshorteners
+echo " "
 echo This Script Is Created By LavSarkari
+echo " "
 clear
 figlet LavSarkari
 echo -e "\e[1;34m Presents \e[1;32m"
